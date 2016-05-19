@@ -3,6 +3,7 @@ layout: post
 title:  "An Amiga style demo remade with CSS3 and JavaScript"
 published: true
 tags: Amiga, CSS3, demoscene
+comments: true
 ---
 
 Some twenty five years ago the legendary Amiga demoscene group [Melon Dezign](https://en.wikipedia.org/wiki/Melon_Dezign) was founded. [Intros](https://en.wikipedia.org/wiki/Demo_(computer_programming)#Intros) are small onescreen demos, most often having a logo, a scrolltext and a more or less advanced graphical demoeffect. A 3d rotating cube or maybe a plasma effect were popular elements in a intro from the '90s.
