@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+comments: true
 ---
 
 <div class="posts">
@@ -16,6 +17,9 @@ title: Home
 
     {{ post.content }}
   </div>
+    {% if page.comments %}
+    {% include jekyll.html %}
+    {% endif %}
   {% endfor %}
 </div>
 
