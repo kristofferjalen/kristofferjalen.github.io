@@ -8,8 +8,8 @@ permalink:        pretty
 
 # Setup
 title:            d018
-tagline:          'Blog'
-description:      'Random thoughts about the demoscene, .NET, C#, Amiga and the C64.'
+tagline:          'Blog Kristoffer Jälén'
+description:      'Some thoughts about the demoscene, .NET, C#, Amiga and the C64.'
 url:              http://kristofferjalen.github.io
 baseurl:          /
 
@@ -17,7 +17,7 @@ author:
   name:           'Kristoffer Jälén'
   url:            https://twitter.com/kristofferjalen
 
-paginate:         5
+paginate:         99
 
 gems:             [jekyll-paginate]
 
