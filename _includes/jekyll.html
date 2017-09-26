@@ -2,7 +2,7 @@
 <script>
 
 var disqus_config = function () {
-this.page.url = '{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}';
+this.page.url = '{{ page.url | replace:'index.html','' | prepend: "/" | relative_url | prepend: site.url }}';
 this.page.identifier = '{{ page.id }}';
 };
 
