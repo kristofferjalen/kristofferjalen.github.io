@@ -25,10 +25,12 @@ public static IDictionary<C64Colors, Func<int, int>> ToByteAdds(this ColorsStrin
         {colorsString.Value[2].ToC64Color(), x => (int)Math.Pow(2, 7 - x) + (int)Math.Pow(2, 6 - x)},
         {colorsString.Value[3].ToC64Color(), x => (int)Math.Pow(2, 7 - x)}
     };
+{% endhighlight %}
 
 In this method, `colorsString` is a four characters string of hex numbers defining the color in each of the registers $d020, $d025, $d026, $d027.
 
-## Party Parrots
+Party Parrots
+=============
 
 Party parrots in Slack are animated drawings of [Sirocco the kakapo parrot](http://knowyourmeme.com/memes/party-parrot). I converted some of the lovely parrots on [http://cultofthepartyparrot.com/](http://cultofthepartyparrot.com/) and let these little fellas slide in to the screen.
 
