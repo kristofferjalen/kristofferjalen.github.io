@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Build and release Azure Function with Azure DevOps"
+title:  "Build and release Azure Functions with Azure DevOps"
 published: true
 tags: Azure, .NET, DevOps, Functions
 comments: true
