@@ -7,8 +7,8 @@ permalink:        pretty
 #relative_permalinks: true
 
 # Setup
-title:            d018
-tagline:          'Blog Kristoffer Jälén'
+title:            'Blog Kristoffer Jälén'
+tagline:          'd018'
 description:      'Some thoughts about the demoscene, .NET, C#, Amiga and the C64.'
 url:              http://kristofferjalen.github.io
 baseurl:          /
