@@ -6,11 +6,11 @@ tags: Azure, .NET, DevOps, Functions
 comments: true
 ---
 
-I recently got an Azure Functions version 2.x app up and running in Azure with a build and release pipeline in Azure DevOps and this post is my brain dump of that process.
+I recently got an Azure Functions version 2.x app up and running in Azure with a build and release pipeline in [Azure DevOps](https://azure.microsoft.com/en-us/services/devops/) and this post is my brain dump of that process.
 
 ## Create a build pipeline
 
-The first thing I did was to create a new **Build pipeline** in **Azure DevOps**. My code was hosted in a repo in DevOps, so I selected the **Azure Repos** option. I used [this template](https://github.com/MicrosoftDocs/pipelines-dotnet-core/blob/master/azure-pipelines.yml) from the [Sample ASP.NET Core application for Azure Pipelines docs](https://github.com/MicrosoftDocs/pipelines-dotnet-core) but did a couple of modifications:
+The first thing I did was to create a new **Build pipeline** in Azure DevOps. My code was hosted in a repo in DevOps, so I selected the **Azure Repos** option. I used [this template](https://github.com/MicrosoftDocs/pipelines-dotnet-core/blob/master/azure-pipelines.yml) from the [Sample ASP.NET Core application for Azure Pipelines docs](https://github.com/MicrosoftDocs/pipelines-dotnet-core) but did a couple of modifications:
 
 The Microsoft-hosted agent pool provides [6 virtual machine images](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml) to choose from, and since my development team is using Visual Studio 2017 I choose the `vs2017-win2016` image instead of `ubuntu-16.04`.
 
