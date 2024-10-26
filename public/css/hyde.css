@@ -250,19 +250,21 @@ a.sidebar-nav-item:focus {
 }
 
 /* custom */
-.theme-base-custom .sidebar {
-  background-color: #373277;
+.theme-base-custom .sidebar, .theme-base-custom .sidebar a {
+  background-color: #fff;
+  color: #000
 }
 .theme-base-custom .content a,
 .theme-base-custom .related-posts li a:hover {
-  color: #FFE330;
+  color: #000;
+  text-decoration: underline;
 }
 .theme-base-custom h1, h2, h3, h4, h5, h6 {
-    color: #dfdfdf;
+    color: #000;
 }
 .theme-base-custom  {
-  background-color: #333;
-  color: #fff;
+  background-color: #eee;
+  color: #000;
 }
 pre, code {
   background-color: #252526;

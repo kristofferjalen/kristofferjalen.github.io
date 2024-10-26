@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Runstenar privacy policy
+sidebar: false
 ---
 
 Privacy Policy

@@ -7,24 +7,9 @@ permalink:        pretty
 #relative_permalinks: true
 
 # Setup
-title:            'Blog Kristoffer Jälén'
-tagline:          'd018'
-description:      'Some thoughts about the demoscene, .NET, C#, Amiga and the C64.'
-url:              http://kristofferjalen.github.io
+title:            'Kristoffer Jälén AB'
+url:              https://jalen.se
 baseurl:          /
-
-author:
-  name:           'Kristoffer Jälén'
-  url:            https://twitter.com/kristofferjalen
-
-paginate:         99
-
-# Custom vars
-#version:          2.1.0
-
-#github:
-  #repo:           https://github.com/kristofferjalen/hyde
 
 plugins:
   - jekyll-seo-tag
-  - jekyll-paginate

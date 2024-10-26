@@ -3,7 +3,6 @@ layout: post
 title:  "Converting an animated GIF to multicolor C64 sprites"
 published: true
 tags: .NET, C64, demoscene
-comments: true
 ---
 Recently I stumbled upon a nice little [GitHub project](https://github.com/jeff-1amstudios/gif-to-c64-sprites) that converts animated GIFs to Commodore 64 sprites. That tool converts to **high resolution** sprites, so I wrote a [.NET tool](https://github.com/kristofferjalen/gif-to-c64-sprites) that converts to **multicolor** sprites.
 

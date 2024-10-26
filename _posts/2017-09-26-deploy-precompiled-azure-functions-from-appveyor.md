@@ -3,7 +3,6 @@ layout: post
 title:  "Deploy precompiled Azure Functions from AppVeyor"
 published: true
 tags: Azure, .NET
-comments: true
 ---
 With [Azure Functions Tools for Visual Studio 2017](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs) you can easily publish your Azure Functions project to Azure directly from Visual Studio. That is very simple. 
 

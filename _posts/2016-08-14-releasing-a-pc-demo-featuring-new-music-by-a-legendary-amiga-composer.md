@@ -3,7 +3,6 @@ layout: post
 title:  "Releasing a PC demo featuring new music by a legendary Amiga composer"
 published: true
 tags: Amiga, PC, demoscene, TDK
-comments: true
 ---
 In 1991 there was a popular [Amiga intro](https://www.youtube.com/watch?v=a9TB358j2qM) that was used by a well known group at the time. That demo featured a smash hit song called *maintheme2*, composed by the British demoscener TDK. For many people, this is a nostalgic memory of Amiga intros from the 90's. An intro could be a reason itself for firing up a disk with the demo on it, just to enjoy the show. 
 

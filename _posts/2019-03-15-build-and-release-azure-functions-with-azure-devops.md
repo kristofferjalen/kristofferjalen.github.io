@@ -3,7 +3,6 @@ layout: post
 title:  "Build and release Azure Functions with Azure DevOps"
 published: true
 tags: Azure, .NET, DevOps, Functions
-comments: true
 ---
 
 I recently got an Azure Functions version 2.x app up and running in Azure with a build and release pipeline in [Azure DevOps](https://azure.microsoft.com/en-us/services/devops/) and this post is my brain dump of that process.
