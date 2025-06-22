@@ -1,3 +1,7 @@
+---
 layout: page
-title: "Privacy policy"
-permalink: /integritet
+title: Privacy Policy
+sidebar: true
+---
+
+This app does not collect any data.
